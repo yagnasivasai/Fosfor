@@ -1,7 +1,6 @@
 import boto3
 
-awsconsole = boto3.sessioj.Session(profile_name="root")
-client = awsconsole.client(servicen_name='ce', region_name='us-east-1')
+client = boto3.client(service_name='ce', region_name='us-east-1')
 
 response = client.get_cost_and_usage(
     TimePeriod={
