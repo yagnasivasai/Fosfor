@@ -2,3 +2,7 @@
 2. Updated and upgraded all packages in Ubuntu Ec2
 3. Downloaded the Docker script 
 4. Ran the 
+
+
+kubeadm join 172.31.19.242:6443 --token 4a4nw9.5gxraerg35zkr9zr \
+        --discovery-token-ca-cert-hash sha256:dcf09af39b9ce69415fcb3dd5b679e1136b192158eac3f3610293c0a69a06f97
