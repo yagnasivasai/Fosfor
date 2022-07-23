@@ -1,0 +1,4 @@
+1: Launched Ubuntu Ec2 Machine With t2.medium in Aws Cloud
+2. Updated and upgraded all packages in Ubuntu Ec2
+3. Downloaded the Docker script 
+4. Ran the 
