@@ -15,4 +15,4 @@ step 10: stopped the running container and removed it
 		using docker rm contianerid
 step 11 : restared the container with env variable CSVSERVER_BORDER=Orange and port 9393
 
-		docker run -d --name test --env CSVSERVER_BORDER:Orange -p 9393:9393 fosfordevops/csvgenerator /bin/bash
+		docker run -d -t --name test --env CSVSERVER_BORDER=Orange -p 9393:9393 fosfordevops/csvgenerator /bin/bash
