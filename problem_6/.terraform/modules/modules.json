@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"myvpc","Source":"./modules/vpc","Dir":"modules/vpc"},{"Key":"worker","Source":"./modules/ec2_worker","Dir":"modules/ec2_worker"},{"Key":"","Source":"","Dir":"."},{"Key":"master","Source":"./modules/ec2_master","Dir":"modules/ec2_master"}]}
